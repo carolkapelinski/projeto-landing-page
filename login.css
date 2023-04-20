@@ -1,0 +1,33 @@
+h1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: rgb(243, 230, 207);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.formulario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.formulario button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 230, 207);
+}
+
+.formulario button:hover{
+    background-color: rgb(211, 149, 33);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+

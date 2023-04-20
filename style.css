@@ -1,51 +1,116 @@
-body{
-    
-    background-image: url(PROJ\ CAROL/comida-fundo.jpg);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+
+
+header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(248, 244, 236);
+
 }
 
-section{
+
+
+div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+.quadrado {
+    display: grid;
+    justify-items: start;
+    grid-column: 2/5;
+    grid-row: 1/3;
+}
+
+#imgprincipal {
+    opacity: 0.9;
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
+
+
+section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     padding: 20px;
-    
 }
 
-footer{
-    }
 
-header a{
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(232, 180, 116);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(248, 244, 236);
+}
+
+footer a {
     color: rgb(174, 121, 24);
     position: relative;
     top: 0;
     margin-top: 0;
     border-top-right-radius: 0%;
 }
-header a:active{
+
+
+footer a:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+header a {
+    color: rgb(174, 121, 24);
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    border-top-right-radius: 0%;
+}
+
+header a:active {
     color: rgb(247, 192, 90);
 }
 
-header button{
+header a:hover {
+    color: rgb(255, 145, 0);
+}
+
+header button {
     background-color: rgb(235, 183, 87);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: rgb(80, 70, 58);
 
 }
 
-header button:hover{
-    background-color: rgb(245, 231, 206);
+header button:hover {
+    background-color: rgb(232, 149, 5);
 }
 
-section.quadrado{
-    border: 1px solid black;
+section.quadrado {
     height: 400px;
     width: 600px;
 }
 
-article.quadradinhos{
+
+
+article.quadradinhos {
+    align-items: center;
     text-align: center;
     border: 1px solid black;
     height: 300px;
@@ -54,4 +119,86 @@ article.quadradinhos{
     border-radius: 10px;
 }
 
+article button {
+    background-color: rgb(235, 183, 87);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
 
+article button:hover {
+    background-color: rgb(232, 149, 5);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+}
+
+.quadradinhos {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    height: 50vh;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#caixa1:hover {
+    background-color: rgb(220, 193, 139);
+}
+
+#caixa2:hover {
+    background-color: rgb(220, 193, 139);
+}
+
+#caixa3:hover {
+    background-color: rgb(220, 193, 139);
+}
+
+
+#caixa1 {
+    background-color: rgb(246, 234, 209);
+    grid-column: 2/4;
+    border-radius: 10px;
+    border: 3px solid rgb(174, 132, 36);
+    justify-content: center;
+    width: 220px;
+}
+
+#caixa2 {
+    background-color: rgb(246, 234, 209);
+    grid-column: 5/7;
+    border-radius: 10px;
+    border: 3px solid rgb(174, 132, 36);
+    justify-content: center;
+    width: 220px;
+}
+
+#caixa3 {
+    background-color: rgb(246, 234, 209);
+    grid-column: 8/10;
+    border-radius: 10px;
+    border: 3px solid rgb(174, 132, 36);
+    justify-content: center;
+    width: 220px;
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+
+.tres p {
+    font-size: larger;
+    color: rgb(227, 182, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0.1em 0.1em 0.05em #545252;
+}
