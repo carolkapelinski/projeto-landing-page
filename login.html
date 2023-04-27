@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - 4Food</title>
     <link rel="icon" href="./PROJ CAROL/img icons/4food - Copia.png">
+    <script src="funções-dom.js" defer></script>
 </head>
 <body>
     <header class="a">
         <h1><strong>Entre ou cadastre-se</strong></h1>
         <h2>Login</h2>
         <link rel="stylesheet" href="login.css">
+        <script src="funções-dom.js"></script>
     </header>
     <main class="b">
-        <form class="formulario" action="#">
+        <form class="formulario" action="javascript:void(0);">
             <label for="nome"> Nome </label>
             <input type="text" name="nome" id="nome">
         </br>
@@ -24,7 +26,7 @@
 
     </br>
     <br>
-            <button type="submit">Enviar </button>
+           <button onclick="login()">Enviar </button>
 
         </br>
         <br>
