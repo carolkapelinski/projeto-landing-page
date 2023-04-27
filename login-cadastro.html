@@ -7,10 +7,11 @@
     <title>Cadastro - 4Food</title>
     <link rel="stylesheet" href="login.css">
     <link rel="icon" href="./PROJ CAROL/img icons/4food - Copia.png">
+    <script src="funções-dom.js" defer></script>
 </head>
 <body>
     <h1>Preencha seus dados para fazer seu cadastro, é rapidinho!</h1>
-    <form class="formulario" action="#">
+    <form class="formulario" action="javascript:void(0);">
         <label for="nome"> Nome: </label>
         <input type="text" name="nome" id="nome">
     </br>
@@ -32,6 +33,7 @@
 
 </br>
 <br>
-        <a href="./done-cadastro.html"> <button type="button">Enviar </button></a>
+       <button onclick="cadastro()">Enviar </button>
+
 </body>
 </html>
