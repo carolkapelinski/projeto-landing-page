@@ -130,3 +130,21 @@ A sua Landing Page deve conter:
 4.  Abra um novo Pull Request (PR) com a frase **PR para correção**. Caso não saiba como fazê-lo, assista a esse [vídeo](https://www.canva.com/design/DAFY4nS5W2c/t92uFMR61YtmA7bCwj2S1Q/watch).
 5.  Envie o link do seu PR e do surge no [formulário de entrega](https://forms.gle/nrh5KpDhAMwXBjC29).
 
+
+
+###
+Link do site: https://youthful-sound.surge.sh/index.html
+
+Prints:
+pag-inicial1.png
+pag-inicial2.png
+pag-inicial3.png
+pag-login.png
+pag-cadastro.png
+pag-cadastro-done.png
+[mobile]pag-inicial.png
+[mobile]pag-inicial2.png
+[mobile]pag-inicial3.png
+[mobile]pag-login.png
+[mobile]pag-cadastro.png
+[mobile]pag-cadastro-done.png
