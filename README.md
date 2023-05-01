@@ -136,15 +136,16 @@ A sua Landing Page deve conter:
 Link do site: https://youthful-sound.surge.sh/index.html
 
 Prints:
-pag-inicial1.png
-pag-inicial2.png
-pag-inicial3.png
-pag-login.png
-pag-cadastro.png
-pag-cadastro-done.png
-[mobile]pag-inicial.png
-[mobile]pag-inicial2.png
-[mobile]pag-inicial3.png
-[mobile]pag-login.png
-[mobile]pag-cadastro.png
-[mobile]pag-cadastro-done.png
+
+![image](./PROJ%20CAROL/img%20icons/pag-inicial1.png)
+![image](./PROJ%20CAROL/img%20icons/pag-inicial2.png)
+![image](./PROJ%20CAROL/img%20icons/pag-inicial3.png)
+![image](./PROJ%20CAROL/img%20icons/pag-login.png)
+![image](./PROJ%20CAROL/img%20icons/pag-cadastro.png)
+![image](./PROJ%20CAROL/img%20icons/pag-cadastro-done.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-inicial.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-inicial2.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-inicial3.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-login.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-cadastro.png)
+![image](./PROJ%20CAROL/img%20icons/%5Bmobile%5Dpag-cadastro-done.png)
